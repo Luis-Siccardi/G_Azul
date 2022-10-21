@@ -16,7 +16,7 @@ section {
 }
 
 .footer-distributed{
-	background: #333;
+	background: rgb(0, 0, 0);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -47,7 +47,7 @@ section {
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color: #50c6d8;
 }
 
 /* Footer links */
@@ -161,7 +161,7 @@ section {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	background-color:  #000000;
 	border-radius: 2px;
 
 	font-size: 20px;
