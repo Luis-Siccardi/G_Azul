@@ -1,14 +1,8 @@
-
-* {
+centro__main-element{
   margin: 0%;
-  /*te permite agrandar el espacio del div,no la imagen*/
-  height: 100%;
-  width: 100%;
-  
-  
 }
 
-.rectangulo-1{
+.centro__first-container{
   display: flex;
   background-color: rgb(0, 29, 44);
   width: 100%;
@@ -18,7 +12,7 @@
 
 }
 
-.imagen-proa{
+.proa-image {
   display: flex;
   padding-top: 50px;
   padding-left: 130px;
@@ -28,7 +22,7 @@
   filter: drop-shadow(20px 20px 5px black);
 }
 
-h4{
+.centro__text-content {
   display: flex;
   justify-content: end;
   padding: 100px;
