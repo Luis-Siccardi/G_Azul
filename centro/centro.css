@@ -1,5 +1,5 @@
 
-*{
+* {
   margin: 0%;
   /*te permite agrandar el espacio del div,no la imagen*/
   height: 100%;
@@ -7,6 +7,7 @@
   
   
 }
+
 .rectangulo-1{
   display: flex;
   background-color: rgb(0, 29, 44);
@@ -16,6 +17,7 @@
   
 
 }
+
 .imagen-proa{
   display: flex;
   padding-top: 50px;
