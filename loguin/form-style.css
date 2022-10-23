@@ -1,18 +1,21 @@
-* {
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.login-container {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  /*border: 1px solid red;*/
-}
-body {
-  background-color: #fafafa;
+  background-color: #e9f3f7;
   font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column; 
   align-items: center;
 }
+
 .wrapper {
+  margin-top: 150px;
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -20,22 +23,19 @@ body {
 }
 .left {
   position: relative;
-}
-.screen {
-  position: absolute;
-  left: 150px;
-  top: 99px;
-  width: 248px;
-  height: 430px;
+  margin: 50px;
+  filter: drop-shadow(10px 10px 2px rgb(202, 223, 250));
+
 }
 .panel {
-  width: 350px;
+  width: 330px;
   background-color: #fff;
   border: 1px solid #dedede;
   border-radius: 2px;
   padding: 20px 40px;
   margin: 5px 0;
   display: flex;
+  
 }
 .login {
   flex-direction: column;
@@ -49,7 +49,7 @@ body {
   margin-bottom: 30px;
 }
 
-form {
+.input-form {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ form {
   width: 100%;
   margin: 10px 0;
   padding: 7px 0;
-  background-color: #b2dffc;
+  background-color: #81b7db;
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -95,70 +95,20 @@ form {
   height: 1px;
   background-color: #8a8a8a;
 }
-.fb {
-  margin: 20px 0;
-  color: #3b5998;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 650;
-}
-.fb::before {
-  font-family: "font Aweome 5 Brands";
-  content: "\f082";
-  margin-right: 5px;
-  font-size: 18px;
-}
-
 .forgot {
   color: #000;
   text-decoration: none;
   font-size: 12px;
 }
-
 .singup a {
-  color: #3bb1ff;
+  margin-top: 15px;
+  color: #81b7db;
   text-decoration: none;
   font-weight: 600;
   margin-left: 5px;
 }
 
-.apps {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 14px;
-  margin: 20px 0;
-}
-.apps-stores {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
-}
 
-.apps-stores img {
-  width: 140px;
-  height: auto;
-}
-footer {
-  max-width: 35em;
-  margin-bottom: 40px;
-}
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 12px;
-  list-style: none;
-  gap: 10px;
-  margin: 20px 0;
-}
-
-li,
-a {
-  color: #8a8a8a;
-  text-decoration: none;
-}
 @media (max-width: 860px) {
   .left {
     display: none;
