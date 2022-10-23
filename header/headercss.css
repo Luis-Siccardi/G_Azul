@@ -131,7 +131,7 @@ header {
 }
 
 main {
-  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10vh 0 80vh;
   position: relative;
