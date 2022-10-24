@@ -1,6 +1,6 @@
   /* helpers/grid.css */
   
-  .grid {
+  .header-links{
     inline-size: 90%;
     margin-inline: auto;
     max-inline-size: 48em;
@@ -16,29 +16,23 @@
     top: 0;
   }
 
-  
-  * {
+  .envoltorio{
     box-sizing: inherit;
-  }
-  
-  html {
     box-sizing: border-box;
-  }
-  
-  body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.75;
     margin: 0;
     min-block-size: 100vh;
   }
+
   
-  .header {
+  .sticky {
     background-color: #fff;
     padding-block: 1em;
   }
   
   
-  .header::after {
+  .sticky::after {
     bottom: 0;
     box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
     content: '';
@@ -51,17 +45,17 @@
     z-index: -1;
   }
   
-  .header.is-active::after {
+  .sticky.is-active::after {
     opacity: 1;
   }
   
   
-  .main {
+  .main-text-section {
     padding-block: 6em;
   }
   
   
-  h1 {
+.title {
     margin-block: 0 0.5em;
   }
   
@@ -91,13 +85,13 @@
   }
   
   
-  p {
+  .p-text{
     padding-block: 1.5em;
   }
 
   @import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
 
-*, *:after, *:before {
+.todo-html-envoltorio, .todo-html-envoltorio:after, .todo-html-envoltorio:before {
   margin: 0;
   padding: 0;
 }
@@ -112,14 +106,14 @@
 
 
 
-body {
+.envoltorio {
   background: #fff;
   color: #333;
   font-family: 'Ubuntu', sans-serif;
   position: relative;
 }
 
-h3 {
+.sub-titulo {
   font-weight: 400;
 }
 
@@ -130,7 +124,7 @@ header {
   text-align: center;
 }
 
-main {
+.main-text-section {
   background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10vh 0 80vh;
@@ -138,7 +132,7 @@ main {
   text-align: center;
   overflow: hidden;
 
- 
+
 }
 
 footer {
