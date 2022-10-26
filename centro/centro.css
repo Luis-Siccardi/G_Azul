@@ -1,5 +1,5 @@
 centro__main-element{
-  margin: 0%;
+  margin: 0%; 
 }
 
 .centro__first-container{
@@ -8,9 +8,7 @@ centro__main-element{
   width: 100%;
   height: 50%;
   margin-top: 30px;
-  
-
-}
+} 
 
 .proa-image {
   display: flex;
@@ -40,8 +38,6 @@ centro__second-main-element{
   width: 100%;
   height: 50%;
   margin-top: 30px;
-  
-
 }
 
 .proa-second-image {
@@ -59,5 +55,35 @@ centro__second-main-element{
   justify-content: end;
   padding: 100px;
   color: rgb(215, 215, 215);
+  padding-top: 130px;
+}
+/*centro3....................................................................................*/
+centro__third-main-element{
+  margin: 0%;
+}
+
+.centro__third-container{
+  display: flex;
+  background-color: rgb(169, 207, 243);
+  width: 100%;
+  height: 50%;
+  margin-top: 30px;
+}
+
+.proa-third-image {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 130px;
+  width: 500px;
+  height: 300px;
+  border-radius: 8px;
+  filter: drop-shadow(20px 20px 5px black);
+}
+
+.centro__third-text {
+  display: flex;
+  justify-content: end;
+  padding: 100px;
+  color: rgb(0, 0, 0);
   padding-top: 130px;
 }
