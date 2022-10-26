@@ -1,28 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
-* {
-  font-family: Open Sans;
-}
 
-section {
-  width: 100%;
-  display: inline-block;
-  background: rgb(0, 0, 0);
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
-
-.footer-distributed{
+.footer-distributed{ 
 	background: rgb(0, 0, 0);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
+	text-align: left; 
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
+  font-family: Open Sans;
 }
 
 .footer-distributed .footer-left,
