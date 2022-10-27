@@ -125,7 +125,7 @@ header {
 }
 
 .main-text-section {
-  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10vh 0 80vh;
   position: relative;
@@ -191,3 +191,13 @@ small {
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
+.imagen-fea{
+  width: 30%;
+  height: 20%;
+  image-rendering: unset;
+  display: flex;
+  justify-content: center;
+  margin-top: -250px ;
+  margin-left: 200px;
+}
+
