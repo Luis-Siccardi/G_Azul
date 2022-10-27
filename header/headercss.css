@@ -1,6 +1,6 @@
   /* helpers/grid.css */
   
-  .grid {
+  .header-links{
     inline-size: 90%;
     margin-inline: auto;
     max-inline-size: 48em;
@@ -10,7 +10,7 @@
   .sticky {
     position: sticky;
     will-change: transform;
-  }
+  } 
   
   .sticky--top {
     top: 0;
@@ -28,6 +28,7 @@
     min-block-size: 100vh;
     box-sizing: inherit;
   }
+
   
   .botones2 {
     background-color: #fff;
@@ -48,12 +49,12 @@
     z-index: -1;
   }
   
-  .header.is-active::after {
+  .sticky.is-active::after {
     opacity: 1;
   }
   
   
-  .main {
+  .main-text-section {
     padding-block: 6em;
   }
   
@@ -94,7 +95,7 @@
 
   @import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
 
-*, *:after, *:before {
+.todo-html-envoltorio, .todo-html-envoltorio:after, .todo-html-envoltorio:before {
   margin: 0;
   padding: 0;
 }
@@ -135,7 +136,7 @@
   text-align: center;
   overflow: hidden;
 
- 
+
 }
 
 .final {
