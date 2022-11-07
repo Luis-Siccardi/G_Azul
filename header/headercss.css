@@ -1,6 +1,6 @@
   /* helpers/grid.css */
   
-  .header-links{
+  .grid {
     inline-size: 90%;
     margin-inline: auto;
     max-inline-size: 48em;
@@ -10,33 +10,35 @@
   .sticky {
     position: sticky;
     will-change: transform;
-  } 
+  }
   
   .sticky--top {
     top: 0;
   }
 
-
-  .botones  {
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  html {
     box-sizing: border-box;
   }
   
-  .cuerpo {
+  body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.75;
     margin: 0;
     min-block-size: 100vh;
-    box-sizing: inherit;
   }
-
   
-  .botones2 {
+  .header {
     background-color: #fff;
     padding-block: 1em;
   }
   
   
-  .botones2::after {
+  .header::after {
     bottom: 0;
     box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
     content: '';
@@ -49,17 +51,17 @@
     z-index: -1;
   }
   
-  .sticky.is-active::after {
+  .header.is-active::after {
     opacity: 1;
   }
   
   
-  .main-text-section {
+  .main {
     padding-block: 6em;
   }
   
   
-  .text {
+  h1 {
     margin-block: 0 0.5em;
   }
   
@@ -89,13 +91,13 @@
   }
   
   
-  .texto {
+  p {
     padding-block: 1.5em;
   }
 
   @import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
 
-.todo-html-envoltorio, .todo-html-envoltorio:after, .todo-html-envoltorio:before {
+*, *:after, *:before {
   margin: 0;
   padding: 0;
 }
@@ -110,25 +112,25 @@
 
 
 
-.cuerpo {
+body {
   background: #fff;
   color: #333;
   font-family: 'Ubuntu', sans-serif;
   position: relative;
 }
 
-.texto3 {
+h3 {
   font-weight: 400;
 }
 
-.texto0 {
+header {
   color: #fff;
   padding-top: 10vw;
   padding-bottom: 30vw;
   text-align: center;
 }
 
-.menu {
+main {
   background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10vh 0 80vh;
@@ -136,10 +138,10 @@
   text-align: center;
   overflow: hidden;
 
-
+ 
 }
 
-.final {
+footer {
   background: #dddee1;
   padding: 5vh 0;
   text-align: center;
