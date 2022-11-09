@@ -7,14 +7,14 @@
   }
   
   
-   /*.sticky {
+   .sticky {
     position: sticky;
     will-change: transform;
   }
   
   .sticky--top {
     top: 0;
-  }*/
+  }
   
   * {
     box-sizing: inherit;
