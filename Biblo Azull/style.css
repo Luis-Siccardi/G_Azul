@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 body {
-    background-color: rgb(110, 179, 202);
+    background-color: #a1baca;
   }
 
 .imgcentro{
@@ -29,7 +29,7 @@ body {
 .table-scroll th, .table-scroll td {
 	padding:5px 10px;
 	border:1px solid #000;
-	background:rgb(110, 179, 202);
+    background-color: #a1baca;
 	white-space:nowrap;
 	vertical-align:top;
 }
