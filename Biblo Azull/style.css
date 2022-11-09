@@ -1,152 +1,63 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
-	background: #f2f2f2; 
-	font-size: 1em;
-	line-height: 1.5em;
+    background-color: #a1baca;
+  }
+
+.imgcentro{
+    display: flex; justify-content: center;
 }
 
-h1 {
-	font-size: 2.3em;
-	line-height: 1.3em;
-	margin: 15px 0;
-	text-align: center;
-	font-weight: 300;
+.table-scroll {
+	position:relative;
+	max-width:2000px;
+	margin:auto;
+	overflow:hidden;
+	border:1px solid #000;
 }
-
-p {
-	margin: 0 0 1.5em 0;
+.table-wrap {
+	width:100%;
+	overflow:auto;
 }
-
-
-#main-header {
-	background: #5bd1d7;
-	color: white;
-	height: 80px;
-}	
-	#main-header a {
-		color: white;
-	}
-
-/*
- * Logo
- */
-#logo-header {
-	float: left;
-	padding: 15px 0 0 20px;
-	text-decoration: none;
+.table-scroll table {
+	width:100%;
+	margin:auto;
+	border-collapse:separate;
+	border-spacing:0;
 }
-	#logo-header:hover {
-		color: #0b76a6;
-	}
-	
-	#logo-header .site-name {
-		display: block;
-		font-weight: 700;
-		font-size: 1.2em;
-	}
-	
-	#logo-header .site-desc {
-		display: block;
-		font-weight: 300;
-		font-size: 0.8em;
-		color: #999;
-	}
-	/*centro 2.....................................................................           */
-centro__second-main-element{
-  margin: 0%;
+.table-scroll th, .table-scroll td {
+	padding:5px 10px;
+	border:1px solid #000;
+    background-color: #a1baca;
+	white-space:nowrap;
+	vertical-align:top;
 }
-
-.centro__second-container{
-  display: flex;
-  background-color: rgb(122, 163, 184);
-  width: 100%;
-  height: 50%;
-  margin-top: 30px;
+.table-scroll thead, .table-scroll tfoot {
+	background:#f9f9f9;
 }
-
-.proa-second-image {
-  display: flex;
-  padding-top: 50px;
-  padding-left: 130px;
-  width: 500px;
-  height: 300px;
-  border-radius: 8px;
-  filter: drop-shadow(20px 20px 5px black);
+.clone {
+	position:absolute;
+	top:0;
+	left:0;
+	pointer-events:none;
 }
-
-.centro__second-text {
-  display: flex;
-  justify-content: end;
-  padding: 100px;
-  color: rgb(215, 215, 215);
-  padding-top: 130px;
+.clone th, .clone td {
+	visibility:hidden
 }
-/*centro3....................................................................................*/
-centro__third-main-element{
-  margin: 0%;
+.clone td, .clone th {
+	border-color:transparent
 }
-
-.centro__third-container{
-  display: flex;
-  background-color: rgb(169, 207, 243);
-  width: 100%;
-  height: 50%;
-  margin-top: 30px;
+.clone tbody th {
+	visibility:visible;
+	color:red;
 }
-
-.proa-third-image {
-  display: flex;
-  padding-top: 50px;
-  padding-left: 130px;
-  width: 500px;
-  height: 300px;
-  border-radius: 8px;
-  filter: drop-shadow(20px 20px 5px black);
+.clone .fixed-side {
+	border:1px solid #000;
+	background:#eee;
+	visibility:visible;
 }
-
-.centro__third-text {
-  display: flex;
-  justify-content: end;
-  padding: 100px;
-  color: rgb(0, 0, 0);
-  padding-top: 130px;
-}
-
-
-/*
- * Navegación
- */
-nav {
-	float: right;
-}
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-				text-decoration: none;
-			}
-           
-                #main-content header,
-                #main-content .content {
-                    padding: 40px;
-                }
-            
-				@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
+.clone thead, .clone tfoot{background:transparent;}
 
 .footer-distributed{ 
 	background: rgb(0, 0, 0);
@@ -327,5 +238,3 @@ nav {
 	}
 
 }
-
-

@@ -1,38 +1,43 @@
   /* helpers/grid.css */
   
-  .header-links{
+  .grid {
     inline-size: 90%;
     margin-inline: auto;
     max-inline-size: 48em;
   }
   
   
-  .sticky {
+   /*.sticky {
     position: sticky;
     will-change: transform;
-  } 
+  }
   
   .sticky--top {
     top: 0;
-  }
-
-  .envoltorio{
+  }*/
+  
+  * {
     box-sizing: inherit;
+  }
+  
+  html {
     box-sizing: border-box;
+  }
+  
+  body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.75;
     margin: 0;
     min-block-size: 100vh;
   }
-
   
-  .sticky {
+  .header {
     background-color: #fff;
     padding-block: 1em;
   }
   
   
-  .sticky::after {
+  .header::after {
     bottom: 0;
     box-shadow: 0 0.0625em 0.5em rgba(0, 0, 0, 0.3);
     content: '';
@@ -45,17 +50,17 @@
     z-index: -1;
   }
   
-  .sticky.is-active::after {
+  .header.is-active::after {
     opacity: 1;
   }
   
   
-  .main-text-section {
+  .main {
     padding-block: 6em;
   }
   
   
-.title {
+  h1 {
     margin-block: 0 0.5em;
   }
   
@@ -85,13 +90,13 @@
   }
   
   
-  .p-text{
+  p {
     padding-block: 1.5em;
   }
 
   @import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
 
-.todo-html-envoltorio, .todo-html-envoltorio:after, .todo-html-envoltorio:before {
+*, *:after, *:before {
   margin: 0;
   padding: 0;
 }
@@ -106,14 +111,14 @@
 
 
 
-.envoltorio {
+body {
   background: #fff;
   color: #333;
   font-family: 'Ubuntu', sans-serif;
   position: relative;
 }
 
-.sub-titulo {
+h3 {
   font-weight: 400;
 }
 
@@ -124,15 +129,15 @@ header {
   text-align: center;
 }
 
-.main-text-section {
-
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
   border-bottom: 1px solid rgba(0, 0, 0, .2);
   padding: 10vh 0 80vh;
   position: relative;
   text-align: center;
   overflow: hidden;
 
-
+ 
 }
 
 footer {
@@ -191,13 +196,3 @@ small {
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
-.imagen-fea{
-  width: 30%;
-  height: 20%;
-  image-rendering: unset;
-  display: flex;
-  justify-content: center;
-  margin-top: -250px ;
-  margin-left: 200px;
-}
-
