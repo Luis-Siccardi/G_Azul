@@ -17,7 +17,7 @@ centro__main-element{
   width: 500px;
   height: 300px;
   border-radius: 8px;
-  filter: drop-shadow(20px 20px 5px black);
+  filter: drop-shadow(20px 10px 5px rgb(0, 22, 32));
 }
 
 .centro__text-content {
@@ -47,7 +47,7 @@ centro__second-main-element{
   width: 500px;
   height: 300px;
   border-radius: 8px;
-  filter: drop-shadow(20px 20px 5px black);
+  filter: drop-shadow(20px 20px 5px rgb(71, 103, 119));
 }
 
 .centro__second-text {
@@ -77,7 +77,7 @@ centro__third-main-element{
   width: 500px;
   height: 300px;
   border-radius: 8px;
-  filter: drop-shadow(20px 20px 5px black);
+  filter: drop-shadow(20px 20px 5px rgb(112, 146, 177));
 }
 
 .centro__third-text {
