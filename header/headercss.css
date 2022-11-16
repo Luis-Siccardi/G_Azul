@@ -1,4 +1,7 @@
   /* helpers/grid.css */
+  .title-header{
+    margin-top: 100px;
+  }
   
   .grid {
     inline-size: 90%;
@@ -34,6 +37,7 @@
   .header {
     background-color: #fff;
     padding-block: 1em;
+   
   }
   
   
@@ -48,6 +52,7 @@
     top: 0;
     transition: opacity 0.3s;
     z-index: -1;
+    
   }
   
   .header.is-active::after {
