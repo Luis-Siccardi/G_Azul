@@ -21,7 +21,7 @@ body {
 	max-width:2000px;
 	margin:auto;
 	overflow:hidden;
-	border:1px solid #000;
+	border:1px solid rgb(255, 255, 255);
 }
 .table-wrap {
 	width:100%;
@@ -35,13 +35,15 @@ body {
 }
 .table-scroll th, .table-scroll td {
 	padding:5px 10px;
-	border:1px solid #000;
+	border:1px solid #f2f2f2;
+	border-top: #f2f2f2;
+	border-bottom: #f2f2f2;
     background-color: #f2f2f2;
 	white-space:nowrap;
 	vertical-align:top;
 }
 .table-scroll thead, .table-scroll tfoot {
-	background:#f9f9f9;
+	background:#f2f2f2;
 }
 .clone {
 	position:absolute;
