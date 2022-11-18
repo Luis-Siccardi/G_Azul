@@ -82,6 +82,7 @@
   
   .navigation__list {
     list-style: none;
+    padding-left: 10px;
     margin: 0;
     padding: 0;
     margin-left: 70px;
