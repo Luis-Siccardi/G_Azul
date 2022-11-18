@@ -2,6 +2,7 @@
   .title-header{
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 13px;
   }
 
   .title{
@@ -79,6 +80,8 @@
     list-style: none;
     padding-left: 10px;
     margin: 0;
+    padding: 0;
+    margin-left: 70px;
   }
   
   .navigation__list--inline {
@@ -135,7 +138,7 @@ h3 {
 header {
   color: #fff;
   padding-top: 2vw;
-  padding-bottom: 30vw;
+  padding-bottom: 10vw;
   text-align: center;
 }
 
