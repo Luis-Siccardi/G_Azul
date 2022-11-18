@@ -2,6 +2,7 @@
   .title-header{
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 13px;
   }
 
   .title{
@@ -79,6 +80,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-left: 70px;
   }
   
   .navigation__list--inline {
