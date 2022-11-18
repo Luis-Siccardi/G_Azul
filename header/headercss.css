@@ -8,6 +8,10 @@
   .title{
     margin-bottom: 50px;
   }
+
+  .justificado{
+    text-align: justify;
+  }
   
   .grid {
     inline-size: 90%;
