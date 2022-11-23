@@ -42,6 +42,7 @@
     line-height: 1.75;
     margin: 0;
     min-block-size: 100vh;
+    text-align: justify;
   }
   
   .header {
