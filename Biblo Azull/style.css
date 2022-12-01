@@ -9,6 +9,11 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
   }
 
+  .logo-novedades{
+	margin-right:1030px;
+	margin-top:-75px;
+}
+
 .imgcentro{
     display: flex; justify-content: center;
 }
