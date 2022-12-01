@@ -1,8 +1,33 @@
   /* helpers/grid.css */
+  .animation{
+    display: block;
+    white-space:nowrap ;
+    border-right: 4px solid;
+    width: 14ch;
+    animation: typing 2s steps(14), blink .5s  step-end alternate  ;
+    overflow: hidden   ;
+    margin-left: 45%;
+    font-size: 20px;
+   
+  }
+ 
+  
+  @keyframes typing{
+    from{width: 0;}
+    
+  }
+  @keyframes blink {
+    50% {borde-color: transparent;}
+  }
+ 
+  
   .title-header{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 13px;
+  }
+  .navigation__item:hover{
+    color: rgb(117, 116, 116);
   }
 
   .title{
