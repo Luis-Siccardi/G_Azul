@@ -21,7 +21,14 @@ centro__main-element{
   height: 300px;
   border-radius: 8px;
   filter: drop-shadow(20px 20px 5px rgb(0, 16, 23));
+  cursor: pointer;
+  transition: 2s;
 }
+.proa-image:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+
 
 .centro__text-content {
   text-align: justify;
@@ -53,6 +60,10 @@ centro__second-main-element{
   height: 300px;
   border-radius: 8px;
   filter: drop-shadow(15px 15px 5px rgb(71, 103, 119));
+  cursor: pointer;
+}
+.proa-second-image:hover{
+  transform: scale(1.1);
 }
 
 .centro__second-text {
@@ -85,6 +96,9 @@ centro__third-main-element{
   height: 290px;
   border-radius: 8px;
   filter: drop-shadow(15px 15px 5px rgb(112, 146, 177));
+}
+.proa-third-image:hover{
+  transform: scale(1.1);
 }
 
 .centro__third-text {
